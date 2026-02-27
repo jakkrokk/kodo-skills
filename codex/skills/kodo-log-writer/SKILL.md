@@ -27,13 +27,12 @@ Both files must keep this structure exactly:
 ...
 ```
 
-## Security note rule (mandatory)
+## Security rule (mandatory)
 
-When generating `YYYYMMDD.md`, append this note at the end of `# body`:
+Do not append a boilerplate security note inside generated markdown files.
 
-```md
----
-Note: Do not include secrets or sensitive data (passwords, API keys, tokens, private keys, personal data, internal-only credentials).
-```
+Instead, enforce safety in generation:
 
-If user-provided content contains sensitive values, redact and replace with placeholders such as `[REDACTED]`.
+- If user-provided content contains sensitive values, redact and replace with placeholders such as `[REDACTED]`.
+- Generalize internal-only identifiers and private infrastructure details.
+- Prefer safe summaries over raw confidential strings.

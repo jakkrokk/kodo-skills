@@ -26,7 +26,4 @@
 - Did:
 - Learned:
 - Next:
-
----
-Note: Do not include secrets or sensitive data (passwords, API keys, tokens, private keys, personal data, internal-only credentials).
 ```
