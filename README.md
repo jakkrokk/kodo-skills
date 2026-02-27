@@ -6,14 +6,15 @@ Public skill repository for KODO markdown workflows.
 
 - `codex/` - skills and usage notes for Codex
 - `claude-code/` - skills and usage notes for Claude Code
+- `openclaw/` - skills and usage notes for OpenClaw
 - `shared/` - shared templates and common guidance
 
 ## Included skill
 
 - `kodo-log-writer`
-  - Generates/updates `KODO/PROJECT.md` and `KODO/YYYYMMDD.md`
+  - Generates or updates `KODO/PROJECT.md` and `KODO/YYYYMMDD.md`
   - Enforces required headings: `# title`, `# desc`, `# body`
-  - Adds mandatory security note to daily files
+  - Adds a mandatory security note to daily files
 
 ## Security
 
