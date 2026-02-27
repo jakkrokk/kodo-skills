@@ -31,3 +31,10 @@ This repository provides reusable skills that help agents generate KODO markdown
 ## Security
 
 Never include secrets or sensitive data in generated markdown files.
+
+## Output samples
+
+- `shared/samples/PROJECT.sample.md`
+- `shared/samples/YYYYMMDD.sample.md`
+
+These are copy-ready examples for registering content into KODO.
