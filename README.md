@@ -8,7 +8,6 @@ KODO^ is a build-in-public workflow that turns repository activity into readable
 By keeping a `KODO/` directory in your repo (for example `PROJECT.md` and `YYYYMMDD.md`), you can publish progress while keeping implementation details private.
 
 - Website: https://kodo.pw/
-- Example app repo context: https://github.com/jakkrokk/popp
 
 ## Why this repository exists
 
